@@ -6,10 +6,14 @@
   "scripts": {
     "test": "lab test.js"
   },
-  "author": "Carlo Zamagni",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/carlozamagni/tabular.git"
+  },
+  "author": "carlozamagni",
   "license": "ISC",
   "devDependencies": {
-    "code": "^2.3.0",
-    "lab": "^10.5.1"
+    "code": "2.3.0",
+    "lab": "10.5.1"
   }
 }
