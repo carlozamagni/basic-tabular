@@ -1,5 +1,5 @@
 {
-  "name": "tabular",
+  "name": "basic-tabular",
   "version": "1.0.0",
   "description": "Converts an object to CSV representation",
   "main": "index.js",
@@ -8,9 +8,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/carlozamagni/tabular.git"
+    "url": "https://github.com/carlozamagni/basic-tabular.git"
   },
-  "author": "carlozamagni",
+  "author": "Carlo Zamagni",
   "license": "ISC",
   "devDependencies": {
     "code": "2.3.0",

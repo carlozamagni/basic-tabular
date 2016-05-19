@@ -1,5 +1,5 @@
-# Tabular
-Tabular helps you pass between dictionary and CSV representations. It can be used to convert generic dictionaries using all the keys they contain or a schema can be applied to force Tabular to only insert selected keys with a specified order into the final representation.
+# Basic-Tabular
+basic-tabular helps you pass between dictionary and CSV representations. It can be used to convert generic dictionaries using all the keys they contain or a schema can be applied to force basic-tabular to only insert selected keys with a specified order into the final representation.
 
 ```
 tabular.row({'a': 1, 'b': 'asd', 'c': new Date(1463587887203)}, (result) => {
@@ -51,7 +51,7 @@ This way, we have:
 '1,2016-05-18T16:11:27.203Z,asd,'
 ```
 
-**Note**: the schema contained an extra field that wasn't included into the dictionary, so tabular inserted an empty string into the string representation.
+**Note**: the schema contained an extra field that wasn't included into the dictionary, so basic-tabular inserted an empty string into the string representation.
 This is the default behaviour and can be customized with the `undefinedrep` options:
 
 ```
